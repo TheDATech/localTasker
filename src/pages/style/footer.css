@@ -1,0 +1,498 @@
+.footer-mainbox{
+    background-color: #1171CA;
+}
+.footer-container{
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ padding: 6rem 6rem 0rem;
+}
+.footer-container:first-child{
+    width: 100%;
+}
+.footer-subpart{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+#datechhover:hover{
+  color: #FF5F1F !important;
+}
+.download-title{
+    margin-top: 1.5rem;
+    font-family: 'Poppins';
+    color: #F9F9F9;
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.5rem;
+}
+.apple-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.social-media-container{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+.social-media-container li{
+    list-style: none;
+    height:1rem;
+    cursor: pointer;
+    padding: 1rem 0rem;
+}
+h4{
+    color: #fff !important;
+    margin-top: 1rem !important;
+    font-family: 'Poppins';
+font-size: 1.6rem !important;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 16px */
+letter-spacing: 0.016rem;
+text-transform: uppercase;
+}
+.footer-subpart-ul{
+    color: white;
+    margin-top: 1rem;
+}
+.footer-subpart-ul li{
+    list-style: none;
+    margin: 0rem 0rem;
+    cursor: pointer;
+    padding: 1rem 0rem;
+    color: #fff;
+    font-family: 'Poppins';
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.4rem; 
+}
+.footer-subpart-ul li a:hover{
+    color: #FDB633;
+}
+.copyrightpara{
+    padding: 1rem 6rem 4rem;
+   justify-content: space-around;
+   color: #FFF;
+font-family: 'Poppins';
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+@media screen and (min-width: 2560px)  {
+    .footer-container {
+        padding: 10rem 20% 0rem;
+    }
+    .copyrightpara {
+        padding: 1rem 20% 10rem;
+    }
+}
+@media (min-width: 1950px) and (max-width: 2560px)  {
+    .footer-container {
+        padding: 10rem 18% 0rem;
+    }
+    .copyrightpara {
+        padding: 1rem 18% 10rem;
+        font-size: 2.4rem;
+    }
+}
+@media (min-width: 1445px) and (max-width: 1951px)  {
+    .footer-container {
+        padding: 8rem 8% 0rem;
+    }
+    .copyrightpara {
+        padding: 1rem 8% 8rem;
+        font-size: 2.4rem;
+    }
+}
+@media  screen and (max-width:858px) {
+    .apple-container{
+        margin-left: -0.5rem !important;
+        margin-right: 7rem !important;
+        justify-content: flex-start;
+    }
+    .download-title {
+        margin-top: 3.5rem;
+        font-size: calc(1vw + 1.5625rem);
+    }
+    .copyrightpara {
+        padding: 1rem 0rem 2rem;
+        color: #FFF;
+text-align:left;
+font-family: 'Poppins';
+font-size: 1.0957rem;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+    }
+    .footermobiletitleh1{
+        color: #fff;
+        font-size: 5.0431rem;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 19.431px */
+letter-spacing: 0.0194rem;
+text-transform: uppercase;
+        margin: 2.5rem 0rem;
+    }
+    .row-footermobiletitlerow{
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footermobileicon{
+        margin: 2.5rem 0rem 0.5rem 6rem;
+        color: goldenrod;
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+    .footerdropdownmenu {
+        position: relative;
+        display: inline-block;
+      }
+      .footer-subpart-ul{
+        display: none;
+        position: relative;
+        background-color:transparent;
+        min-width: 16rem;
+        z-index: 1;
+        top:10%;
+      }
+      .footer-subpart-ul li {
+        margin: 0.5rem 0.3rem;
+        font-family: 'Poppins';
+    }
+      .social-media-container {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem !important;
+        justify-content: left;
+    }
+    .social-media-container li{     
+        padding: 1rem 7rem 1rem 0rem;
+
+    }
+      .footerdropdownmenu:hover .footer-subpart-ul {display: block;}
+    .footer-container{
+        padding: 1rem;
+    }
+    .footer-subpart{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    #tomara{
+        margin-left: 1rem;
+    }
+    #tamar1{
+        margin-left: 1rem;
+    }
+}
+
+/*laptop small*/
+
+@media (max-width:1024px) and (min-width:921px){
+    .footer-subpart-ul li {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width:920px) and (min-width:769px){
+    .footer-subpart-ul li {
+        font-size: 1.2rem;
+    }
+    .apple-container{
+        justify-content: flex-start;
+        gap: 4rem;
+    }
+}
+/*tablet*/
+@media (max-width:558px) and (min-width:480px){
+    .row-footermobiletitlerow {
+        width: 90% !important;
+    }
+    .download-title {
+        margin-top: 5.5rem !important;
+    }
+}
+@media (max-width:768px) and (min-width:481px){
+    .apple-container{
+        justify-content: flex-start;
+        gap: 4rem;
+    }
+    .download-title {
+        margin-top: 5.5rem;
+        font-size: calc(1vw + 1.5625rem);
+    }
+    .copyrightpara {
+        padding: 1rem 0rem 2rem;
+        color: #FFF;
+text-align:left;
+font-family: 'Poppins';
+font-size: 1.0957rem;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+    }
+    .footermobiletitleh1{
+        color: #fff;
+        font-size: 5.0431rem;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 19.431px */
+letter-spacing: 0.0194rem;
+text-transform: uppercase;
+        margin: 2.5rem 0rem;
+    }
+    .row-footermobiletitlerow{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footermobileicon{
+        margin: 2.5rem 0rem 0.5rem 6rem;
+        color: goldenrod;
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+    .footerdropdownmenu {
+        position: relative;
+        display: inline-block;
+      }
+      .footer-subpart-ul{
+        display: none;
+        position: relative;
+        background-color:transparent;
+        min-width: 16rem;
+        z-index: 1;
+        top:6%;
+        margin-bottom: 3rem !important;
+      }
+      .footer-subpart-ul li {
+        margin: 0.5rem 0.3rem;
+        font-family: 'Poppins';
+    }
+      .social-media-container {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem !important;
+        justify-content: left;
+    }
+    .social-media-container li{     
+    padding: 1rem 4rem 1rem 0rem;
+    }
+      .footerdropdownmenu:hover .footer-subpart-ul {display: block;}
+      #tamar1 {
+        margin-left: 22.5rem;
+    }
+    #tomara {
+        margin-left: 18.5rem;
+    }
+}
+
+@media (max-width:480px) and (min-width:377px){
+    .mx-41{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .apple-container{
+        margin-left: -7.5rem !important;
+        margin-right: 7rem !important;
+        justify-content: space-evenly;
+    }
+    .download-title {
+        margin-top: 3.5rem;
+    }
+    .copyrightpara {
+        padding: 1rem 0rem 2rem;
+        color: #FFF;
+text-align:left;
+font-family: 'Poppins';
+font-size: 10.957px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+    }
+    .footermobiletitleh1{
+        color: #fff;
+        font-size: 1.9431rem;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 19.431px */
+letter-spacing: 0.0194rem;
+text-transform: uppercase;
+        margin: 1.5rem 0rem;
+    }
+    .row-footermobiletitlerow{
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footermobileicon{
+        margin: 0.5rem 0rem 0.5rem 6rem;
+        color: goldenrod;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .footerdropdownmenu {
+        position: relative;
+        display: inline-block;
+      }
+      .footer-subpart-ul{
+        display: none;
+        position: relative;
+        background-color:transparent;
+        min-width: 16rem;
+        z-index: 1;
+        top:6%;
+        margin-bottom: 3rem !important;
+      }
+      .footer-subpart-ul li {
+        margin: 0.5rem 0.3rem;
+        font-family: 'Poppins';
+    }
+      .social-media-container {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem !important;
+    }
+      .footerdropdownmenu:hover .footer-subpart-ul {display: block;}
+ 
+}
+
+@media (max-width:376px) and (min-width:320px){
+    #tomara{
+        margin-left: 10rem;
+    }
+    #tamar1{
+        margin-left: 11.3rem;
+    }
+    .apple-container{
+        justify-content: left;
+        gap: 2rem;
+    }
+    .copyrightpara {
+        padding: 1rem 0rem 2rem;
+        color: #FFF;
+text-align:left !important;
+font-family: 'Poppins';
+font-size: 1.0957rem;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+    }
+    .mx-41{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .download-title {
+        margin-top: 5.5rem;
+    }
+    .footermobiletitleh1{
+        color: #fff;
+        font-size: 1.6431rem;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 19.431px */
+letter-spacing: 0.0194rem;
+text-transform: uppercase;
+        margin: 1.5rem 0rem;
+    }
+    .row-footermobiletitlerow{
+        width: 88%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footermobileicon{
+        margin: 0.5rem 0rem 0.5rem 6rem;
+        color: goldenrod;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .footerdropdownmenu {
+        position: relative;
+        display: inline-block;
+      }
+      .footer-subpart-ul{
+        display: none;
+        position: relative;
+        background-color:transparent;
+        min-width: 16rem;
+        z-index: 1;
+        top:6%;
+        margin-bottom: 3rem !important;
+      }
+      .footer-subpart-ul li {
+        margin: 0.5rem 0.3rem;
+        font-family: 'Poppins';
+    }
+      .social-media-container {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem !important;
+        justify-content:left;
+    }
+    .social-media-container li{
+        padding: 1rem 4rem 1rem 0rem;
+    }
+      .footerdropdownmenu:hover .footer-subpart-ul {display: block;}
+      
+}
+@media (max-width:319px) and (min-width:200px){
+    .apple-container{
+        justify-content: left;
+        gap: 1rem;
+    }
+    .row-footermobiletitlerow{
+        width: 88%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-subpart-ul{
+        display: none;
+        position: relative;
+        background-color:transparent;
+        min-width: 16rem;
+        z-index: 1;
+        top:6%;
+        margin-bottom: 3rem !important;
+      }
+    .footermobileicon{
+        margin: 0.5rem 0rem 0.5rem 6rem;
+        color: goldenrod;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .social-media-container li{
+        padding: 1rem 3rem 1rem 0rem;
+    }
+    .footer-subpart-ul li {
+        margin: 0.5rem 0.3rem;
+        font-family: 'Poppins';
+    }
+      .social-media-container {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem !important;
+        justify-content:left;
+    }
+    .download-title {
+        margin-top: 5.5rem;
+    }
+    .footermobiletitleh1{
+        color: #fff;
+        font-size: 1.6431rem;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 19.431px */
+letter-spacing: 0.0194rem;
+text-transform: uppercase;
+        margin: 1.5rem 0rem;
+    }
+    .apple-container img{
+        width: 60%;
+    }
+    .foot200{
+        width: 90%;
+    }
+}

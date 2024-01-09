@@ -1,0 +1,1650 @@
+.modal-backdrop-blur {
+    backdrop-filter: blur(5px); /* Adjust the blur intensity as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color and opacity as needed */
+  }
+#learnmore_mobile{
+    margin-top:2rem;
+}
+.main-containerbox{
+ padding-top: 6.5rem;
+}
+.firstbox-container{
+  background-image: url(/Homepage/LTHOMEslider.png);
+  justify-content: center;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height:auto;
+  background-repeat: no-repeat;
+}
+.firstbox-container-sub{
+    width: 100%;
+    height:auto;
+    background: rgba(19, 19, 20, 0.70);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Poppins';
+}
+.firstbox-container-subtitle{
+    padding: 28rem 6rem 2rem;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 6rem; /* 120% */
+    text-transform: capitalize;
+    width: 99.3rem;
+}
+.blogfirstbox-container-subtitle{
+    padding: 28rem 6rem 2rem;
+    color: #FFF;
+font-family: 'Poppins';
+font-size: 6rem;
+font-style: normal;
+font-weight: 600;
+line-height: 6rem;
+}
+
+.firstbox-container-subpara{
+    padding: 0rem 0rem 3rem;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 102.7rem;
+}
+.firstbox-container-subinputbox{
+    padding: 0rem 3rem 22rem;
+    justify-content: center;
+ align-items: center;
+    display: flex;
+}
+.firstbox-container-subinputboxlevel3{
+    padding: 0rem 3rem 1rem;
+    justify-content: center;
+ align-items: center;
+    display: flex;
+}
+.blogfirstbox-container-subinputbox{
+    padding: 0rem 3rem 20rem;
+    justify-content: center;
+ align-items: center;
+    display: flex;
+}
+.blogfirstbox-container-subinputbox input{
+    width: 55.1rem;
+    height: 6.2rem;
+    flex-shrink: 0;
+    background-color: #FFF !important;
+    border: none;
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+    outline: none;
+    padding-left: 2.5rem;
+    color: #515151;
+font-family: 'Poppins';
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 300;
+line-height: 5rem;   
+}
+.blogfirstbox-container-subinputbox button{
+    width: 7.2rem;
+height: 6.2rem;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    border-radius: 0rem 0.6rem 0.6rem 0rem;
+    background: #FDB633;
+    cursor: pointer;
+}
+.firstbox-container-subinputbox input{
+    width: 55.1rem;
+    height: 6.2rem;
+    flex-shrink: 0;
+    border: none;
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius:0.6rem;
+    outline: none;
+    padding-left: 2.5rem;
+    font-size: 1.4rem;
+    background-color: white !important;
+    color: #515151;
+    font-family: 'Poppins';
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.firstbox-container-subinputboxlevel3 input{
+    width: 80%;
+    height: 4.5rem;
+    flex-shrink: 0;
+    border: 0.1rem solid #1171CA;
+    border-right: none;
+    background: #FFF;
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius:0.6rem;
+    outline: none;
+    padding-left: 2.5rem;
+    font-size: 1.4rem;
+    background-color: white !important;
+    color: #515151;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#dotSize{
+    width: 6rem;
+    height: 1.4rem;
+}
+.poptit{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    padding: 0.8rem 1.5rem;
+    font-family: 'Poppins';
+}
+.modal-content {
+    border-radius: 1rem !important;
+}
+.poptit1{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    font-family: 'Poppins';
+}
+.poptit1:hover{
+    background-color: rgba(157, 198, 236, 0.25);
+    cursor: pointer;
+}
+.firstbox-container-subinputbox button{
+    background-color: #FDB633;
+    padding: 0.9rem 1.4rem;
+    width: 7.2rem;
+    height: 6.2rem;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 0rem 0.6rem 0.6rem 0rem;
+    cursor: pointer;
+}
+.firstbox-container-subinputboxlevel3 button{
+    background-color: #fff;
+    padding: 0.5rem 1.4rem;
+    width: 7.2rem;
+    height: 4.5rem;
+    flex-shrink: 0;
+    border: 0.1rem solid #1171CA;
+    border-left: none;
+    border-radius: 0rem 0.6rem 0.6rem 0rem;
+    cursor: pointer;
+    color: #1171CA;
+    font-size: 2rem;
+}
+.howTitle{
+    color: #1171CA;
+    font-family: 'Poppins';
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5rem; 
+}
+.paracardleft{
+    color: #858585;
+font-family: 'Poppins';
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.largeScreenheadingpadding{
+    padding-top: 6rem !important;
+    margin-bottom: 5rem !important;
+}
+.card{
+overflow: hidden;
+border-radius: 1rem;
+border: none;
+width: 100%;
+    height: auto;
+outline: none;
+}
+.card1{
+overflow: hidden;
+border-radius: 1rem;
+border: none;
+width: 100%;
+height: auto;
+outline: none;
+}
+.card1 .img1 img{
+    border-radius: 1rem;
+    object-fit: cover;
+    width: 100%;
+    height: 21.4rem;
+    flex-shrink: 0;
+} 
+.img1 img{
+    border-radius: 1rem;
+    object-fit: cover;
+    width: 36rem;
+    height: 21.4rem;
+    flex-shrink: 0;
+}
+.img2{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 8rem;
+    height: 8rem;
+    flex-shrink: 0;
+    background-color:#1171CA; 
+    background-repeat: no-repeat;
+    margin-top: -3.5rem;
+    border-radius: 50%;
+}
+.img2 img{
+    justify-content: center;
+    padding: 1.5rem !important;
+    width: 8rem;
+    height: 8rem;
+}
+.main-text{
+    text-align: center;
+    padding: 1rem 0;
+}
+.main-text h2{
+    text-transform: capitalize;
+    margin: 0 0 2rem;
+    font-family: 'Poppins';
+    color: #000;
+font-size: 2rem;
+font-style: normal;
+font-weight: 600;
+line-height: 5rem;
+}
+.containerleftrightmargin{
+    margin-left: 10.6rem;
+    margin-right: 10.6rem;
+}
+.main-text p{
+    font-family: 'Poppins';
+    color: #858585;
+text-align: center;
+font-size: 2rem;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.lefttitle{
+    color: #1171ca;
+    margin: 0rem 0.8rem 1rem;
+    font-family: 'Poppins';
+font-size: 4rem;
+font-style: normal;
+font-weight: 700;
+line-height: 5rem;
+}
+.hirebtn{
+    display: inline-flex;
+padding: 1.2rem 4.9rem;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+border-radius: 0.5rem;
+background: #1171CA;
+    color: #FFF;
+font-family: 'Poppins';
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.4rem;
+    border: none;
+    padding: 0.1rem;
+    cursor: pointer;
+    outline: none;
+}
+.hirebtn:hover{
+    color: black;
+    border: 0.1rem solid #1171CA;
+    background-image:none;
+    background-color: transparent;
+}
+.categoerytbn:active,.categoerytbn:hover,.active{
+    background-color:#1171CA;
+    margin: 3rem 0rem 2rem;
+    border-radius: 1rem;
+    color: white;
+    border: none;
+    padding: 0.2rem;
+    font-size: 2.4rem;
+    width: 100%;
+    height: 5rem;
+    cursor: pointer;
+    outline: none;
+}
+.categoerytbn{
+    background-color: #fff;
+    margin: 3rem 0rem 2rem;
+    border-radius: 1rem;
+    color: #000;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    height: 5rem;
+    border: 0.1rem solid #000;
+}
+.right-cardul{
+    padding-left: 0rem;
+}
+.right-cardul li{
+   list-style: none;
+   text-align: left;
+   margin: 0.5rem 0rem;
+   color: #1171CA;
+font-family: 'Poppins';
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2rem; 
+}
+.profilecardtitle{
+    text-align: center;
+    margin: 1rem 0rem;
+    font-family: 'Poppins';
+    font-weight: 900;
+    color: #1171CA;
+font-size: 2.4rem;
+font-style: normal;
+font-weight: 700;
+line-height: 138%;
+}
+.profilereadmore{
+  border: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  color: #888;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profileimage{
+    width: 4rem !important;
+    height: 4rem !important;
+    border-radius: 50%;
+    margin-right: 0.8rem;
+    object-fit: contain;
+    margin-top: 0.5rem;
+}
+.name{
+    margin-left: .5rem;
+    color: #000;
+font-family: 'Poppins';
+font-size: 1.3rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.4462rem;
+}
+.homeInspiration{
+    margin: 1.1rem 0.5rem;
+    color: #888;
+font-family: 'Poppins';
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.4462rem;
+}
+.subcribetitle{
+    color: #FFF;
+    font-family:'Poppins';
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4rem;
+    margin: 3rem 1rem 2rem;
+  }
+  .subcribepara{
+    color: #FFF;
+    font-family:'Poppins';
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem;
+    margin: 1rem 1rem 3rem;
+  }
+  .subcribe-btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem;
+  }
+  .subcribe-btn-container button{
+    border: none;
+    width: 15.6rem;
+    height: 5rem;
+    border-radius: 5.5rem;
+  background: #FFF;
+  color: #515151;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 3rem;
+  }
+  .btn2{
+    border-radius: 5.5rem;
+  border: 0.1rem solid #FDB633 !important;
+  background-color: transparent !important;
+  border: 0.1rem solid #FDB633 !important;
+  color: #FFF !important;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3rem;
+  }
+  .subcribe-container-subinputbox{
+    display: flex;
+    margin: 0 1rem 0rem;
+    justify-content: center;
+  }
+  .subcribe-container-subinputbox input{
+    border: none;
+    border-top-left-radius: .6rem;
+    border-bottom-left-radius: .6rem;
+    outline: none;
+    padding-left: 1rem;
+    width: 40.8rem;
+  height: 5.3rem;
+  background: #FFF;
+  color: #888;
+  font-family: 'Poppins';
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  }
+  .subcribe-container-subinputbox button{
+    border-radius: 0rem 0.6rem 0.6rem 0rem;
+  background: #FDB633;
+    width: 14.4rem !important;
+    height: 5.3rem;
+    padding: 1.1rem;
+    width: auto;
+    border: none;
+    cursor: pointer;
+    color: #000;
+  font-family: 'Poppins';
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem; /* 142.857% */
+  text-transform: capitalize;
+  }
+  .subcribeinputpara{
+    margin: 0 1rem 0rem;
+    color: #F9F9F9;
+    font-family:'Poppins';
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem;
+  }
+  .sprintimagemargin{
+    padding:7rem 3rem 6rem;
+  }
+.blogfirstbox-container {
+    background-image: url(/assets/Headerimageblog.jpg);
+    justify-content: center;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+#leftimageconor{
+    position: relative;
+}
+.rect1 {
+    width: 9.1rem;
+    height: 9.1rem;
+    background-color: #1171CA;
+    border-radius: 1.2rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 1%;
+}
+  .rect2{
+    width: 100%; /* Responsive width */
+    max-width: 54rem;
+    height: auto;
+    border-radius: 1rem;
+    position: absolute;
+    top:2rem;
+    left: 2rem;
+  }
+  .rect3 {
+     width:9.1rem; /* Adjust as needed */
+    height: 9.1rem; /* Maintain a square aspect ratio (height = width) */
+    background-color: #1171CA;
+    border-radius: 1.2rem;
+    position: absolute;
+    top: -0.5rem; /* Adjust as needed */
+    right: 0.5rem; /* Adjust as needed */
+  }
+  
+  .rect4 {
+    width: 100%; /* Responsive width */
+    max-width: 54rem; /* Maximum width for large screens */
+    height: auto; /* Automatically adjust height based on content */
+    border-radius: 1.2rem; /* Adjust as needed */
+    position: absolute;
+    top: 1.2rem; /* Adjust as needed */
+    right: 2rem; /* Adjust as needed */
+  }
+  .rect6{
+    width: 9.1rem;
+    height: 9.1rem;
+    background-color: #1171CA;
+    border-radius: 1.2rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+  .rect5 {
+    width: 100%; /* Responsive width */
+    max-width: 54rem;
+    height: auto;
+    border-radius: 1rem;
+    position: absolute;
+    top:2rem;
+    left: 2rem;
+}
+.howmobileitworkmargintop{
+  margin-top: 18.5rem;
+}
+.howmobileitworkpaddingBottom{
+   padding-bottom: 12rem;
+}
+.vhgimage{
+    width: 100%;
+    max-width: 54rem !important;
+    height: auto;
+    object-fit: cover;
+    border-radius: 1.6rem;
+}
+
+.modal-title{
+    color: #1171ca !important;
+}
+.modelclosbtn{
+    border: none;
+    outline: none;
+    color: #1171CA;
+    background: #fff;
+    font-weight: 700 !important;
+    font-size: large;
+}
+.modelclosbtn:hover{
+    color: #FDB633;
+}
+#modelsearchinput{
+ width: 88%;  
+ height: 4.5rem;
+ padding: 1.5rem;
+ border-radius: 10px;
+ background-color: #ffff;
+ font-size: 1.5rem;
+ border: none;
+ outline: none;
+ box-shadow: rgba(17,113,202, 0.25) 0px 54px 75px, rgba(17,113,202, 0.12) 0px -12px 30px, rgba(17,113,202, 0.12) 0px 4px 6px, rgba(17,113,202, 0.17) 0px 12px 13px, rgba(17,113,202, 0.09) 0px -3px 5px;
+}
+.blue-text {
+    color: #1171CA;
+  }
+#level3searchbtn{
+    background-color: #1171CA;
+    color: #FFF;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem 2rem;
+    font-size: 2.5rem;
+}
+
+
+@media screen and (min-width: 1441px) {
+    #level3searchbtn{
+        padding: 0.5rem 1.5rem;
+    }
+    .containerleftrightmargin {
+      margin: 16rem auto; /* Center horizontally with equal margins on the left and right */
+      max-width: 140rem;
+      justify-content: center;
+    }
+    .main-containerbox {
+        /* Set a larger padding-top value for large screens */
+        padding-top: 10.5rem;
+      }
+      .rect3 {
+        width: 9.1rem;
+        height:9.1rem;
+        background-color: #1171CA;
+        border-radius: 1.2rem;
+        position: absolute;
+        top: 2%;
+        right: 24%;
+    }
+     
+     .rect4 {
+       width: 100%; /* Responsive width */
+       max-width: 54rem; /* Maximum width for large screens */
+       height: auto; /* Automatically adjust height based on content */
+       border-radius: 1.2rem; /* Adjust as needed */
+       position: absolute;
+       top: 1.5rem; /* Adjust as needed */
+       right: 18rem; /* Adjust as needed */
+     }
+    .rect2 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 1rem;
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+    }
+    .rect11 {
+        width: 40%;
+        max-width: 100%;
+        height: 38rem;
+        background-color: #1171CA;
+        border-radius: 1rem;
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1200px) {
+    .containerleftrightmargin {
+        margin: 10rem 8rem; /* Adjust the margins for smaller screens */
+        max-width: 100%;
+        justify-content: center; /* Allow the container to take up the full width */
+      }
+      .despt{
+        padding-top: 6rem !important;
+        padding-bottom: 8rem !important;
+      }
+  }
+  @media (min-width: 2400px) and (max-width: 2560px)  {
+    .card, .card1 {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        border-radius: 1rem;
+    }
+    .containerleftrightmargin {
+        margin-left: 30rem;
+        margin-right: 30rem;
+    }
+    .howmobileitworkmargintop {
+        margin-top: 21.5rem;
+    }
+    .largeScreen{
+       margin-top: 12rem !important;
+       padding-bottom: 9rem !important;
+    }
+    .largeScreenheadingpadding{
+        padding-top: 26rem !important;
+        margin-bottom: 5rem !important;
+    }
+    .paracardleft{
+        font-size: 2.5rem;
+    }
+    .vhgimage{
+        width:100% !important;
+        height: auto;
+        object-fit: cover;
+    border-radius: 1.6rem;
+    }
+    .rect3 {
+        width: 9.1rem; /* Adjust as needed */
+       padding-top: 9.1rem; /* Maintain a square aspect ratio (height = width) */
+       background-color: #1171CA;
+       border-radius: 1.2rem;
+       position: absolute;
+       top: 2%; /* Adjust as needed */
+       right: 2%; /* Adjust as needed */
+     }
+     
+     .rect2{
+       width: 100%; /* Responsive width */
+       max-width: 54rem; /* Maximum width for large screens */
+       height: auto; /* Automatically adjust height based on content */
+       border-radius: 1.2rem; /* Adjust as needed */
+       position: absolute;
+       top: 1rem; /* Adjust as needed */
+       right: 2rem; /* Adjust as needed */
+     }
+     .rect1 {
+        top:-0.5rem;
+     }
+     .rect4{
+      right: 21rem;
+     }
+    .heightlowdown{
+        height: 41rem !important;
+        width: 60rem !important;
+    }
+    .img1 img {
+        width: 100%;
+        height: auto;
+    } 
+    .name {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+}
+@media (min-width: 1951px) and (max-width: 2400px){
+    .main-containerbox {
+        padding-top: 2.5rem !important;
+    }
+    .containerleftrightmargin {
+        margin-left: 16rem;
+        margin-right: 16rem;
+        max-width: 192rem;
+    }
+    .rect3 {
+        width: 9.1rem;
+        height: 9.1rem;
+        top: 2%;
+        right: 0%;
+    }
+    .rect4{
+        right: 1.5rem;
+    }
+}
+@media (min-width: 1445px) and (max-width: 1951px)  {
+    .becomestart{
+        padding:1.2rem 0.9rem !important;
+    }
+    .main-containerbox {
+        padding-top: 1.5rem !important;
+    }
+    .containerleftrightmargin {
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
+    .card, .card1 {
+        width: 100%;
+        height: auto;
+    }
+    .rect3 {
+        width: 9.1rem; /* Adjust as needed */
+       height: 9.1rem; /* Maintain a square aspect ratio (height = width) */
+       background-color: #1171CA;
+       border-radius: 1.2rem;
+       position: absolute;
+       top: 2%; /* Adjust as needed */
+       right: 1%; /* Adjust as needed */
+     }
+     
+     .rect4{
+       width: 100%; /* Responsive width */
+       max-width: 43rem; /* Maximum width for large screens */
+       height: auto; /* Automatically adjust height based on content */
+       border-radius: 1.2rem; /* Adjust as needed */
+       position: absolute;
+       top: 2rem; /* Adjust as needed */
+       right: 2rem; /* Adjust as needed */
+     }
+     .rect2{
+        width: 100%; /* Responsive width */
+        max-width: 43rem; /* Maximum width for large screens */
+        height: auto; /* Automatically adjust height based on content */
+        border-radius: 1.2rem; /* Adjust as needed */
+        position: absolute;
+        top: 2rem; /* Adjust as needed */
+        right: 2rem; /* Adjust as needed */
+      }
+    .paracardleft,.main-text p{
+        font-size: 1.6rem;
+    }
+    .name {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:1269px) and (min-width:1085px){
+    .main-containerbox {
+        padding-top: 1.5rem !important;
+    }
+    .name{
+        font-size: 0.9rem;
+    }
+    .main-text p,.paracardleft {
+        font-size: 1.6rem;
+    }
+    .card1 .img1 img {
+        height: 17.4rem;
+    }
+    .subcribetitle {
+        font-size: 2.5rem;
+    }
+    .subcribepara {
+        font-size: 1.2rem;
+    }
+    .becomestart{
+        padding:1.2rem 0.6rem !important;
+    }
+}
+@media (max-width:1085px) and (min-width:999px){
+    .main-containerbox {
+        padding-top: 1.5rem !important;
+    }
+    .name{
+        font-size: 0.9rem;
+    }
+    .card1 .img1 img {
+        height: 17.4rem;
+    }
+    .main-text p,.paracardleft {
+        font-size: 1.6rem;
+    }
+    .subcribetitle {
+        font-size: 2.5rem;
+    }
+    .subcribepara {
+        font-size: 1.2rem;
+    }
+    
+.firstbox-container-subpara {
+    font-size: 2.2rem;
+}
+}
+@media screen and (max-width:858px){
+    .firstbox-container {
+        background-position: 100%,100%;
+        object-fit: contain;
+    }
+    .firstbox-container-subinputbox input{
+        width: 28.7rem;
+        height: 3.9rem;
+        font-size: 1.2rem;
+        padding-left: 1.4rem;
+        background-color: #fff;
+    }
+    .firstbox-container-subinputbox button{
+        width: 4.6rem;
+        height: 3.9rem;
+        padding: 0.1rem 1.4rem;
+        color: #515151;;
+font-family: 'Poppins';
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    .firstbox-container-subinputbox button img{
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+    .firstbox-container-subinputbox{
+        padding: 0rem 1rem 10rem;
+    }
+    .firstbox-container-subpara{
+        padding: 10rem 0rem !important;
+        color: #FFF !important;
+        text-align: center !important;
+        font-family: 'Poppins';
+        font-size: 1.1rem !important;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 30.7rem;
+        height: 5.2rem;
+    }
+    .firstbox-container-subtitle{
+        padding: 10rem 2rem 8rem;
+    width: 32.4rem;
+    height: 9.6rem;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.8rem;
+    }
+    .sprintimagemargin{
+        display: none;
+    }
+    .rect6{
+        width: 24%; /* Adjust as needed */
+        padding-top: 20%; /* Maintain a square aspect ratio (height = width) */
+        background-color: #1171CA;
+        border-radius: 1.2rem;
+        position: absolute;
+        top: 2%; /* Adjust as needed */
+        right: 3%; /* Adjust as needed */
+    }
+     .rect3 {
+        width: 9.1rem; /* Adjust as needed */
+        height: 9.1rem; /* Maintain a square aspect ratio (height = width) */
+       background-color: #1171CA;
+       border-radius: 1.2rem;
+       position: absolute;
+       top:1.5rem; /* Adjust as needed */
+       right: 2rem; /* Adjust as needed */
+     }
+     .rect4,.rect2,.rect5{
+       width: 100%; /* Responsive width */
+       max-width: 43rem; /* Maximum width for large screens */
+       height: auto; /* Automatically adjust height based on content */
+       border-radius: 1.2rem; /* Adjust as needed */
+       position: absolute;
+       top: 2rem; /* Adjust as needed */
+       right: 2rem; /* Adjust as needed */
+     }
+    .rect41{
+        width:17rem;
+    }
+}
+/*tablet*/
+
+@media (max-width:998px) and (min-width:880px){
+    .main-containerbox {
+        padding-top: 1.5rem !important;
+    }
+    .howTitle,.lefttitle{
+        font-size: 3.6rem;
+    }
+    .firstbox-container-subpara {
+        padding: 0rem 6rem 3rem;
+    }
+    .paracardleft{
+        font-size: 1.2rem;
+    }
+    .main-text p{
+        font-size: 1.2rem;
+        width: 27rem;
+        margin: auto;
+    }
+    .vhgimage {
+        width: 100% !important;
+        height: 100%;
+        object-fit: cover;
+    }
+    .rect4,.rect2{
+        width: 100%;
+    }
+    .heightlowdown{
+        height: 39.9rem !important;
+    }
+    .card1{
+        width: 100%;
+        height: auto;
+        }
+        .name,.homeInspiration{
+          font-size: 1rem;
+          line-height: 1.6462rem;
+          margin-top: 1.2rem;
+        }
+        .profilecardtitle {
+            font-size: 2rem;
+        }  
+        .sprintimagemargin {
+            padding: 7rem 2rem 6rem;
+        }
+        .subcribetitle {
+          font-size: 2.2rem;
+        }
+        .subcribepara {
+          font-size: 1.2rem;
+          margin: 1rem 1rem 3rem;
+        }
+        .subcribe-btn-container {
+          margin: 3rem 1.5rem 2rem;
+        }      
+        .profileimage {
+            width: 3rem !important;
+            height: 3rem !important;
+            margin-top: 1rem;
+        }
+}
+@media (max-width:880px) and (min-width:769px){
+    .main-containerbox {
+        padding-top: 1.5rem !important;
+    }
+    .sprintimagemargin {
+      padding: 7rem 2rem 6rem;
+  }
+  .subcribetitle {
+    font-size: 1.7rem;
+  }
+  .subcribepara {
+    font-size: 0.9rem;
+    margin: 1rem 1rem 3rem;
+  }
+  .subcribe-btn-container {
+    margin: 3rem 1.5rem 2rem;
+  }
+  .subcribe-btn-container button{
+    font-size: 1.2rem;
+  }
+  .subcribeinputpara{
+    font-size: 1.1rem;
+    margin:0rem 16% 0rem;
+  }
+  .subcribe-container-subinputbox button {
+    padding: 0.5rem;
+    font-size: 0.6rem;
+  }
+  .sprintimagemargin {
+    padding: 7rem 1rem 6rem;
+  }
+  .rect1{
+    left:7%;
+  }
+  .ab17{
+    margin-top: 52rem;
+  }
+  .dropdown,.becomestart{
+     width: 100%;
+  }
+  .roundring{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 0.1rem solid #FDB633;
+    margin: 2rem 4rem;
+  }
+  .roundring h5,.roundring p{
+    color: #1171CA;
+  }
+  .despt1{
+    padding-top: 10rem  !important;
+    padding-bottom: 10rem !important;
+  }
+  }
+/*tablet*/
+
+@media (max-width:768px) and (min-width:481px){
+    .main-containerbox {
+        padding-top: 1.5rem !important;
+    }
+    .despt1{
+        padding-top: 6rem  !important;
+        padding-bottom: 6rem !important;
+      }
+    .subcribeinputpara {
+        margin: 0px 22% 0rem;
+    }
+    #leftimageconor,#leftimageconor1{
+        margin-left: max(18rem,3rem);
+    margin-right: max(18rem,3rem);
+        text-align: center;
+    }
+    .jjjj,.ab17{
+        margin-top: max(40rem,26rem) !important;
+    }
+    .howTitle,.lefttitle{
+        font-size: 2.5rem;
+    }
+.active{
+    font-size: 1.2rem;
+}
+.categoerytbn,.categoerytbn:hover{
+    font-size: 1.2rem;
+}
+.img1 img {
+    border-radius: 1rem;
+    object-fit: cover;
+    width: 100% !important;
+    height: 24rem !important;
+}
+.card,.card1{
+    overflow: hidden;
+    border-radius: 1rem;
+    border: none;
+    width: 98%;
+    height: auto;
+    outline: none;
+}
+.img2{
+    width: 8rem;
+    height: 8rem;
+}
+.paracardleft,.right-cardul li{
+    font-size: 1rem;
+}
+.vhgimage {
+    width: 100% !important;
+    height: 100%;
+}
+.rect1 {
+    width:9.1rem;
+    height: 9.1rem;
+    background-color: #1171CA;
+    border-radius: 1.2rem;
+    position: absolute;
+    top: 0rem;
+    left: 1rem;
+}
+.rect3 {
+  width: 9.1rem;
+  height: 9.1rem;
+  top:1rem;
+  right: 0.5rem;
+  padding-top: 0%;
+}
+.rect4,.rect2{
+    width: 100%; /* Responsive width */
+    height: auto; /* Automatically adjust height based on content */
+    border-radius: 1.2rem; /* Adjust as needed */
+    position: absolute;
+    top: 1rem; /* Adjust as needed */
+    right: 1.5rem; /* Adjust as needed */
+  }
+.heightlowdown{
+    height: 39.9rem !important;
+}
+.name{
+  font-size: 1.2rem;
+  line-height: 1.6462rem;
+  margin-top: 1.2rem;
+}
+.homeInspiration{
+
+    font-size: 1.8rem;
+    margin-top: 2.1rem;
+    
+        }
+.profilecardtitle {
+    font-size: 2.2rem;
+}
+.subcribetitle{
+    color: #FFF !important;
+  text-align: center !important;
+  font-family: 'Poppins' !important;
+  font-size: 3.686rem !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: 6rem !important; /* 172.117% */
+  letter-spacing: -0.0523rem !important;
+    margin: 0rem 0.5rem 1rem !important;
+  }
+  .subcribe-btn-container {
+    margin: 3rem 10rem 2rem;
+  }
+  .subcribe-container-subinputbox,.subcribeinputpara{
+    margin: 0 22% 0rem;
+  }
+  .right-cardul li {
+    padding-left: 0rem;
+  }
+  .main-text {
+    text-align: center;
+    padding: 1rem 3rem;
+}
+}
+/*mobile large*/
+@media (max-width:480px) and (min-width:377px){
+    .main-containerbox {
+        padding-top: 1.5rem !important;
+    }
+    .despt1{
+        padding-top: 6rem  !important;
+        padding-bottom: 6rem !important;
+      }
+    .img2 {
+        width: 8rem;
+        height: 8rem;
+    }
+    .jjjj{
+        margin-top: max(50rem,26rem);
+    }
+    .ab17{
+        margin-top: max(50rem,26rem) !important;
+    }
+    #learnmore_mobile{
+        margin-top:0rem;
+    }
+    .howmobileitworkmargintop {
+        margin-top: 5rem;
+    }
+    .containerleftrightmargin {
+        margin-left: 2.6rem;
+        margin-right: 2.6rem;
+        justify-content: center;
+    }
+      .howmobileitworkpaddingBottom{
+        padding-bottom: 1rem;
+     }
+    .main-containerbox{
+        padding-top: 1rem;
+       }
+    .name {
+        color: #000;
+        font-family: 'Poppins';
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5462rem;
+        margin-top: 0rem;
+    }
+    .homeInspiration{
+        font-size: 1.8rem;
+        margin-top: 1.1rem;
+            }
+    .vhgimage{
+        width: 100% !important;
+        height: auto;
+        border-radius: 1.5rem;
+        margin: auto;
+    }
+    .rect4,.rect2 {
+        max-width: 100% !important;
+    }
+    .rect4{
+        max-width: 100%;
+        top:2.4rem !important;
+        right: 2.4rem;
+    }
+    .howTitle,.lefttitle {
+        color: #1171CA !important;
+text-align: center;
+font-family: 'Poppins';
+font-size: 3.6rem !important;
+font-style: normal;
+line-height: 3.7346rem; /* 106.702% */
+letter-spacing: -0.0525rem;
+        font-weight: 900 !important;
+    }
+    ul {
+        padding-left: 0rem;
+    }
+    .ourstorytitle {
+        font-size: 1.5rem;
+        font-weight: 900;
+    } 
+    .blogfirstbox-container-subinputbox input {
+        width: 24.3rem;
+    }
+    .main-text p {
+        padding: 1rem auto;
+        color: #858585;
+text-align: center;
+font-family: 'Poppins';
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 20.5rem;
+height: 3.4rem;
+margin-left: auto;
+margin-right: auto;
+    }
+    .card,.card1{
+        height: auto;
+        width: 100%;
+    }
+    .rect1 {
+        width: 7rem;
+        height: 7.0333rem;
+    }
+    .rect3 {
+        width: 7rem;
+        height: 7.0333rem;
+        right: 1rem;
+        top: 0.9rem;
+        padding-top: 0%;
+    }
+    .right-cardul li {
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding: 1rem 0rem;
+    }
+    .firstbox-container{
+        background-size:cover;
+      }
+      .blogfirstbox-container-subtitle{
+        padding: 14rem 3rem 2rem;
+        color: #FFF;
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 3.6rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 3.8rem;
+      }
+      .profileimage{
+        width: 2.4355rem !important;
+height: 2.4355rem !important;
+      }
+      .profilecardtitle{
+        color: #1171CA;
+text-align: center;
+font-family: 'Poppins';
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.9rem;
+padding: 1.2rem 3.5rem;
+      }
+      #dotSize{
+        width: 5.2rem;
+        height: 0.9rem;        
+      }
+      .img1 img {
+        width: 33rem;
+        height: 21.4rem;
+    }
+     .mx-41{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .px-51{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .firstbox-container-subinputboxlevel3 input {
+        width: 80%;
+        height: 4.4rem;
+        font-size: 1rem;
+        background-color: white !important;
+        color: #515151;
+    }
+    .firstbox-container-subinputboxlevel3 {
+        padding: 0rem 3rem 1rem;
+    }
+    .firstbox-container-subinputboxlevel3 button {
+        padding: 0rem 1.2rem;
+        height: 4.4rem;
+    }
+    
+#level3searchbtn {
+    padding: 0.5rem 1rem;
+    font-size: 2.2rem;
+}
+}
+/*mobile medium*/
+
+@media (max-width:378px) and (min-width:320px){
+    .img2{
+      width: 8rem;
+      height: 8rem;
+    }
+    .firstbox-container-subinputboxlevel3 input {
+        width: 80%;
+        height: 4.4rem;
+        font-size: 1rem;
+        background-color: white !important;
+        color: #515151;
+    }
+    .firstbox-container-subinputboxlevel3 {
+        padding: 0rem 3rem 1rem;
+    }
+    .firstbox-container-subinputboxlevel3 button {
+        padding: 0rem 1.2rem;
+        height: 4.4rem;
+    }
+    
+#level3searchbtn {
+    padding: 0.8rem 1rem;
+    font-size: 2rem;
+}
+    .firstbox-container-subinputbox input,.blogfirstbox-container-subinputbox input{
+        width: 23.9rem;
+    }
+    .jjjj{
+        margin-top: 45rem;
+    }
+    .ab17{
+       margin-top: 42rem !important;
+    }
+    .card,.card1{
+        width: 100%;
+        height: auto;
+    }
+    #learnmore_mobile{
+        margin-top:0rem;
+    }
+    .howmobileitworkmargintop {
+        margin-top: 5rem;
+    }
+    .containerleftrightmargin {
+        margin-left: 1.6rem;
+        margin-right: 1.6rem;
+    }
+      .howmobileitworkpaddingBottom{
+        padding-bottom: 1rem;
+     }
+    .main-containerbox{
+        padding-top: 1rem;
+       }
+    .name {
+        color: #000;
+        font-family: 'Poppins';
+        font-size: 0.6rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2462rem;
+        margin-top: 0.3rem;
+    }
+    .homeInspiration{
+        color: #888;
+font-family: 'Poppins';
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 500;
+margin-top: 2.1rem;
+line-height: 0.0462rem
+    }
+    .vhgimage{
+        width: 100% !important;
+        height: auto;
+        border-radius: 1.5rem;
+        margin: auto;
+    }
+    .rect4,.rect2 {
+        width: 100%;
+    }
+    .howTitle,.lefttitle {
+        color: #1171CA !important;
+text-align: center;
+font-family: 'Poppins';
+font-size: 3rem !important;
+font-style: normal;
+line-height: 3.7346rem; /* 106.702% */
+letter-spacing: -0.0525rem;
+        font-weight: 900 !important;
+    }
+    ul {
+        padding-left: 0rem;
+    }
+    .ourstorytitle {
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+    .main-text {
+        text-align: center;
+        padding: 4rem 0 8rem;
+    }
+    .main-text h2{
+      font-size: 2.5rem;
+    }
+    .main-text p {
+        padding: 1rem 10.2rem;
+        color: #515151;
+text-align: center;
+font-family: 'Poppins';
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    .rect1 {
+        width: 7rem;
+        height: 7.0333rem;
+        top: 1rem;
+        left: 1rem;
+    }
+    .rect3 {
+        width: 7rem;
+        height: 7.0333rem;
+        right: 1rem;
+        top: 1rem;
+        padding-top: 0%;
+    }
+    .right-cardul li {
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding: 1rem 0rem;
+    }
+    .firstbox-container,.blogfirstbox-container{
+        background-size:cover;
+      }
+      .blogfirstbox-container-subtitle{
+        padding: 14rem 3rem 2rem;
+        color: #FFF;
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 3.6rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 3.8rem;
+      }
+      .profileimage{
+        width: 2.3355rem !important;
+height: 2.2355rem !important;
+      }
+      .profilecardtitle{
+        color: #1171CA;
+text-align: center;
+font-family: 'Poppins';
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.6rem;
+      }
+      #dotSize{
+        width: 5.2rem;
+        height: 0.9rem;        
+      }
+      .img1 img {
+        border-radius: 1rem !important;
+        object-fit: cover !important;
+        width: 24.8rem;
+        height: 17.3rem;
+        flex-shrink: 0;
+    }
+    .mx-41{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    .px-51{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .despt1{
+        padding-top: 6rem  !important;
+        padding-bottom: 6rem !important;
+      }
+}
+
+@media (max-width:319px) and (min-width:200px) {
+    .main-containerbox{
+        padding-top: 1rem;
+    }
+    .despt1{
+        padding-top: 2rem  !important;
+        padding-bottom: 2rem !important;
+      }
+    .howTitle {
+        font-size: 3rem;
+    }
+    .main-text p {
+        font-size: 1.3rem;
+    }
+    .vhgimage {
+        width: 100%;
+        max-width: 30rem !important;
+    }
+    #leftimageconor {
+        position: relative;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .jjjj,.ab17{
+        margin-top: 36rem;
+    }
+    .rect4{
+     top:2rem;
+     right: -3rem;
+    }
+    .rect3 {
+        width: 9.1rem;
+        height: 9.1rem;
+        padding-top: 0%;
+        top: 1rem;
+    }
+    .card1 .img1 img {
+        height: 16.4rem;
+    }
+    .containerleftrightmargin {
+        margin-left: 2.6rem;
+        margin-right: 2.6rem;
+    }
+    .homeInspiration {
+        margin: 1.4rem 0.5rem;
+        font-size: 1.8rem;
+    }
+    .name{
+        font-size: 1rem;
+    }
+    .dropdown,.becomestart{
+        width: 100%;
+    }
+    .roundring{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        border: 0.1rem solid #FDB633;
+        margin-top: 1.5rem;
+    }
+    .roundring h5,.roundring p{
+        color: #1171CA;
+    }
+}

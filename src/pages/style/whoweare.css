@@ -1,0 +1,2216 @@
+.circle1{
+    width: 21.6rem;
+    height: 21.6rem;
+    border-radius: 50%;
+    border: 0.1rem solid #FDB633;
+  }
+.circle2{
+      width: 34.9rem;
+      height: 34.9rem;
+      border-radius: 50%;
+      margin: 3rem 0.5rem;
+      border: 0.1rem solid #FDB633;
+  }
+
+.circle2 img,.circle1 img{
+  border-radius: 50%;
+}
+    .ourstorytitle{
+      color: #000;
+      font-family: 'Poppins';
+      font-size: 4rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 6rem;
+      text-transform: capitalize;
+     }
+     #Journey{
+      color: #1171CA;
+font-family: 'Poppins';
+font-size: 4rem;
+font-style: normal;
+font-weight: 700;
+line-height: 6rem;
+text-transform: capitalize;
+     }
+     .hirebtn{
+        margin: 3rem 0rem 1rem;
+        border: none;
+        display: inline-flex;
+        padding: 1.2rem 4.9rem;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        cursor: pointer;
+        border-radius: 0.5rem;
+background: #1171CA;
+color: #FFF;
+font-family: 'Poppins';
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.4rem;
+    }
+    .hirebtn:hover{
+      color: black;
+      border: 0.1rem solid #1171ca;
+      background-image:none;
+      background-color: transparent;
+    }
+    .ourstorypara{
+      color: #858585;
+      font-family: 'Poppins';
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    h5{
+      font-weight: 600;
+      font-family: 'Poppins';
+    }
+    .valuesourparaafter{
+      color: #858585;
+text-align: center;
+font-family: Poppins;
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    .lefttitle{
+        margin: 0rem 0rem 1rem;
+        font-family: 'Poppins';
+        color: #1171CA;
+font-size: 4rem;
+font-style: normal;
+font-weight: 900;
+line-height: 5rem; 
+    }
+    .vhgimage{
+      width: 100%;
+      border-radius: 1.5rem;
+    }
+    .vhgimage1{
+    width: 70%;
+    height: 30rem;
+    object-fit: contain;
+  }
+    .valueContainer{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      justify-content: center;
+    }
+    .lookingfor{
+      color: #000;
+font-family: 'Poppins';
+font-size: 2.6rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+    .valueCard{
+      background-image: url(/assets/PopularCategoriesunselectedcategory@2x.svg);
+      background-size: cover;
+      border-radius: 1rem;
+      width: 38.7rem;
+      height: 38rem;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.1s;
+      margin-bottom: 4rem;
+      margin-top:1rem;
+    }
+    .valueCard:hover,.ownbossCard:hover{
+      background-image: url(/assets/PopularCategoriesselectedcategory@2x.svg);
+    }
+    .openingcard{
+      background-image: url(/assets/Rectangle488@2x.svg);
+      background-size: cover;
+      border-radius: 1rem;
+      width: 36rem;
+height: 35.1rem;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.1s;
+      margin-bottom: 4rem;
+      margin-top:1rem;
+    }
+    .openingcard h2{
+      color: #000;
+      text-align: center;
+      font-family: 'Poppins';
+      font-size: 4rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 5rem;
+    }
+    .openingcard:hover{
+      background-image: url(/assets/Rectangle490@2x.svg);
+    }
+    .openingcard span{
+      color: #858585;
+text-align: center;
+font-family: 'Poppins';
+font-size: 2.4rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    .openingcard p{
+      color: #858585;
+      text-align: center;
+      font-family: 'Poppins';
+      font-size: 2.4rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .valueCard p {
+      color: #858585;
+      text-align: center;
+      font-family: 'Poppins';
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding-top: 1.2rem;
+      width: 28.5rem;
+      height: 10.7rem;
+    }
+    .valueCard h5{
+      color: #000;
+text-align: center;
+font-family: 'Poppins';
+font-size: 2rem;
+font-style: normal;
+font-weight: 600;
+line-height: 2.8rem;
+    }
+    .valueiconimage{
+      padding: 1.2rem !important;
+      margin-left: 0rem !important;
+    }
+    .answerbox{
+      display: flex;
+      justify-content: space-between;
+    }
+    .plus{
+      border: none;
+      border-radius: 50%;
+      text-align: center;
+      outline: none;
+      width: 2rem;
+      height: 2rem;
+      font-size: 1rem;
+      background-color: transparent;
+    }
+    .answertitle{
+     color: #1171CA !important;
+font-family: 'Poppins';
+font-size: 2.4rem !important;
+font-style: normal;
+font-weight: 500;
+line-height: 3.62rem; /* 164.545% */
+letter-spacing: -0.033rem;
+text-transform: capitalize;
+    }
+    .faqpara{
+      color: #858585 !important;
+font-family: 'Poppins';
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.033rem;
+text-align:left ;
+    }
+    #parentrect{
+      position: relative;
+    }
+    .rect11 {
+      width: 40%; /* Adjust as needed */
+  max-width: 100%; /* Set a maximum width if necessary */
+      height: 45rem;
+      background-color: #1171CA;
+      border-radius: 1rem;
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+    }
+    .rect21 {
+      width: 97%; /* Adjust as needed */
+      max-width: 100%; /* Set a maximum width if necessary */
+      height: auto; /* Automatically adjust height based on content */
+      border-radius: 1.6rem;
+      background: #EEE;
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+    }    
+    .circlebecome1{
+      width: 18rem;
+      border-radius: 50%;
+      margin: 3rem 1.5rem;
+      height: 18rem;
+      border: 0.1rem solid #FCB531;
+    }
+    .circlebecome2{
+      width: 33rem;
+      height: 33rem;
+      border-radius: 50%;
+      margin: 5rem 0rem;
+      border: 0.1rem solid #FCB531;
+    }
+    .circlebecome3{
+      width: 18rem;
+      height: 18rem;
+      border-radius: 50%;
+      margin: -12rem -3rem;
+      border: 0.1rem solid #FCB531;
+    }
+    .circlebecome3 img,.circlebecome2 img,.circlebecome1 img{
+      border-radius: 50%;
+    }
+    .becomestart{
+      background: #1171CA;
+      margin: 0rem;
+      border-radius: 0.5rem;
+      color: #FFF;
+      font-family: 'Poppins';
+      font-size: 1.4rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 2.4rem;
+      border: none;
+      padding: 1rem;
+      display: inline-flex;
+      padding: 1.2rem 1.9rem;
+      justify-content: center;
+      align-items: center;      
+      cursor: pointer;
+    }
+    .yellowbgcircle{
+      width: 6rem;
+      height: 6rem;
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-color: #FDB633;
+     border-radius: 50%;
+     text-align: center;
+    }
+    .dropdown{
+        border: 0.2rem solid #1171ca;
+        border-radius: 0.5rem;
+        height: 4.5rem;
+        padding: 0.6rem;
+        background-color: #fff !important;
+        outline: none;
+        color:#838E9E;
+font-family: Poppins;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.4rem;
+    }
+    #formbecome{
+      background-color: #ffffff;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1rem 4px;
+      border-radius: 1rem;
+      padding: 1.2rem;
+    }
+    #formbecome  p{
+      font-size: 1.3rem;
+    }
+    #formbecome  h5{
+      font-size: 2.5rem;
+    }
+    #inforicon{
+      margin-top: -2rem;
+    }
+    .ownbossgrid{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      justify-content: center;
+    }
+    .ownbossCard{
+      background-image: url(/assets/PopularCategoriesunselectedcategory@2x.svg);
+      background-size: cover;
+      border-radius: 0.6rem;
+      width: 28.5rem;
+      height: 27.9rem;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.1s;
+      margin-bottom: 4rem;
+      margin-top:1rem;
+    }
+    .ownbossCard p{
+      padding-top: 2.6rem;
+      color: #000;
+text-align: center;
+font-family: 'Poppins';
+font-size: 2rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+    .ownbossCard span{
+      text-align: center;
+font-family: 'Poppins';
+font-size: 1.4rem !important;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: #858585;
+    }
+    .chatusCard {
+      background-image: url(/assets/PopularCategoriesunselectedcategory@2x.svg);
+      background-size: cover;
+      border-radius: 1rem;
+      width: 36rem;
+      height: 36.6rem;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.1s;
+      margin-bottom: 4rem;
+      margin-top: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .chatusCard h5{
+    color: #000;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.8rem;
+    margin: 0.5rem 5rem;
+  }
+  .chatusCard p{
+    color: #858585;
+text-align: center;
+font-family: 'Poppins';
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 0rem 6rem;
+  }
+  .contactforminput{
+     height: 5rem;
+     margin: 1.5rem;
+     border: 0.2rem solid #1171ca;
+     padding: 1.2rem;
+     outline: none;
+     border-radius: 0.5rem;
+     width: 80%;
+     background-color: #ffffff !important;
+     color: #858585;
+     font-size: 1.2rem;
+  }
+  .textarea{
+     height: 8rem;
+     border: 0.2rem solid #1171ca;
+     margin: 1.5rem;
+     border-radius:0.5rem;
+     padding: 1.2rem;
+     width: 80%;
+     outline: none;
+     background-color: #ffffff !important;
+     color: #858585;
+     font-size: 1.2rem;
+  }
+  input[type='file']{
+    display: none;
+  }
+  label{
+    display: inline-block;
+    text-transform: capitalize;
+    background-color: #808080;
+    color: #ffffff;
+    text-align: center;
+    width: 80%;
+height: 4.8rem;
+padding: 1.2rem 1.4rem;
+    letter-spacing: 0.15rem;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.4462rem; 
+  }
+  #label{
+    display: inline-block;
+    text-transform: capitalize;
+    display: flex;
+    width: 100%;
+    height: 4.8rem;
+    padding: 1.7rem 1.4rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: 0;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    color: #000;
+font-family: 'Poppins';
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.4462rem;
+margin-top: 2rem;
+  }
+ .privacypara{
+  color: #858585;
+font-family: 'Poppins';
+font-size: 4rem;
+font-style: normal;
+font-weight: 500;
+line-height: 6rem;
+ }
+  #lengthopening{
+    text-align: left;
+    color: #1171CA;
+    font-family: 'Poppins';
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .jobpostpara{
+    color: #858585;
+font-family: 'Poppins';
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+  ul{
+    list-style: none;
+  }
+  li{
+    color: #797979;
+font-family: 'Poppins';
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.8rem; /* 155.556% */
+letter-spacing: -0.027rem;
+padding: 1rem;
+  }
+  #uploadcv{
+    background:gray;
+    margin: 2rem 0rem 1rem;
+    border-radius: 1rem;
+    color: white;
+    border: none;
+    padding: 0.1rem;
+    font-size: 1rem;
+    width:70%;
+    height: 3rem;
+  }
+  #x{
+    width: 3.6rem;
+    height: 3.6rem;
+    border:none;
+    border-radius: 50%;
+    margin: 1rem;
+  }
+  .hiringstepcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+  .hiringstepCard {
+    background-image: url(/assets/Rectangle488@2x.svg);
+    background-size: cover;
+    border-radius: 1rem;
+    width: 20.1206rem;
+height: 20.1206rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.1s;
+    margin-bottom: 4rem;
+    margin-top:1rem;
+  }
+  .hiringstepCard p{
+    color: #000;
+text-align: center;
+font-family: 'Poppins';
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 18.4rem;
+  }
+  #cocimage{
+    margin-left: 13rem;
+    height: 2rem;
+    width: 2rem;
+  }
+  .termspara{
+    color: #858585;
+    font-family: 'Poppins';
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+     margin: 2rem 1rem;
+  }
+  .termsli{
+    color: #B3B2B3;
+    font-family: 'Poppins';
+font-size: 2rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+  .termsli__active{
+    color: #1171CA;
+font-family: 'Poppins';
+font-size: 2rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+  .highlights{
+    color:gray;
+    font-weight:800;
+  }
+
+  .despt{
+      padding-top: 12rem;
+      padding-bottom: 12rem;
+  }
+  .becomeyellowcirclemargin {
+    margin: 1.2rem 0rem 0rem -0.1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+  .frequentmargin{
+    margin-left: 14rem;
+    margin-right: 14rem;
+  }
+  .faqborderleft{
+    border-left:0.2rem solid #1171ca;
+  }
+  .client{
+    border:none;
+    outline: none;
+    border-radius: 3rem;
+    background-color: #1171ca;
+    color: #ffffff;
+    height: 3.5rem;
+    width: 16rem;
+    padding: 0.8rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+  .client:hover{
+    background-color: #ffffff;
+    color: #000;
+  }
+  .client1{
+    border:none;
+    outline: none;
+    border-radius: 3rem;
+    background-color: #fff;
+    color: #000;
+    height: 3.5rem;
+    width: 16rem;
+    padding: 0.8rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+  .client1:hover{
+    color: #fff;
+    background-color: #1171ca;
+  }
+  .answertitlemargin{
+    margin:0.5rem 1rem;
+    color:#1171ca !important;
+  }
+  #pressleftcvmf{
+    margin-top: 12rem;
+  }
+  #commtabbtnd{
+    margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: center;
+  }
+  .conmt{
+    margin-top: 48rem;
+  }
+  .uploadmarginleftnj {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    gap: 10rem;
+}
+  .contacttitlemarginleft,.contacttitlemarginleftpara{
+    margin-left: 6.4vw;
+    margin-right:6.4vw;
+   }
+   .blogGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: auto;
+    margin-right: auto;
+   }
+  .ownbossCard span{
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+  }
+  #leftimageconor1{
+    position: relative;
+  }
+  @media (min-width: 1950px) and (max-width: 2560px)  {
+    .largepole {
+      margin-left: 12rem;
+      margin-right: 0rem;
+  }
+  .valueCard {
+    width: 54.3rem;
+    height: 54.8rem;
+  }
+  .valueCard h5 {
+    font-size: 2.5rem;
+  }
+  .valueCard p {
+    font-size: 2.2rem;
+    width: 34.3rem;
+    height: 12.7rem;
+}
+.circlebecome2 {
+  width: 20rem;
+  height: 20rem;
+}
+.circlebecome1 {
+  width: 14rem;
+  height: 14rem;
+  margin: 3rem 9.5rem;
+}
+.circlebecome3 {
+  width: 14rem;
+  height: 14rem;
+  margin: -6rem -6rem;
+}
+.dropdown {
+  width: 23rem;
+}
+#leftimageconor {
+  position: relative;
+  margin-left: 8vw;  
+  margin-right: 8vw;
+}
+.rect21 {
+  width: 100%;
+  height: auto;
+  max-width: 68rem;
+}
+.rect11 {
+  width: 50%;
+  height: 38.3rem;
+}
+.conmt{
+  margin-top: 84rem;
+}
+#commtabbtnd {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.contacttitlemarginleft,.contacttitlemarginleftpara{
+ margin-left: 6.2vw;
+ margin-right: 6.2vw;
+}
+.uploadmarginleftnj {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  gap: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+ .openingcard {
+  width: 44.8rem;
+  height: 44.3rem;
+}
+.hiringstepCard {
+  width: 19.2206rem;
+  height: 19.5206rem;
+}
+.hiringstepCard p {
+  font-size: 1.5rem;
+  height: 3rem;
+}
+.hiringstepCard img{
+  width: 8rem;
+  height: 8rem;
+}
+label {
+  width: 80%;
+}
+  }
+  @media (min-width: 1500px) and (max-width: 1777px)  {
+    .rect11 {
+      width: 30% !important;
+      height: 35.3rem !important;
+    }
+  }
+  @media (min-width: 1445px) and (max-width: 1951px)  {
+    #leftimageconor {
+      position: relative;
+      margin-left: 5vw;  
+      margin-right: 5vw;
+    }
+    .rect21 {
+      width: 100%;
+      height: auto;
+  }
+    .rect11 {
+      width: 30%;
+      height: 28.3rem;
+    }
+    .conmt{
+      margin-top: 45rem;
+    }
+    .rect4 {
+      width: 54rem;
+  }
+  #commtabbtnd {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+.contacttitlemarginleft,.contacttitlemarginleftpara{
+  margin-left: 7.2vw;
+  margin-right:7.2vw;
+ }
+ .uploadmarginleftnj {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  gap: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .hiringstepCard {
+    width: 16.2206rem;
+    height: 16.5206rem;
+  }
+  .hiringstepCard p {
+    font-size: 1.3rem;
+    width: 12.4rem;
+  }
+  .hiringstepCard img{
+    width: 6rem;
+    height: 6rem;
+  }
+  label{
+    width: 80%;
+  }
+  }
+  @media (min-width: 1025px) and (max-width: 1325px)  {
+    .valueCard {
+      width: 32.7rem;
+      height: 34rem;
+  }
+  .valueCard h5{
+    font-size: 1.8rem;
+  }
+  .valueCard p{
+    font-size: 1.4rem;
+    width: 26.5rem;
+  }
+  .ownbossCard {
+    width: 25.5rem;
+    height: 25.9rem;
+  }
+  .ownbossCard span {
+    font-size: 1rem;
+    padding: 0.5rem 1.7rem;
+    width: 26rem;
+}
+.uploadmarginleftnj {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  gap: 8%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hiringstepCard {
+  width: 16.2206rem;
+  height: 16.5206rem;
+}
+.hiringstepCard p {
+  font-size: 1.3rem;
+  width: 12.4rem;
+}
+.rect11 {
+  width: 40%; /* Adjust as needed */
+max-width: 100%; /* Set a maximum width if necessary */
+  height: 38rem;
+}
+  }
+@media (max-width:1024px) and (min-width:921px){
+  .rect11 {
+    width: 40%; /* Adjust as needed */
+  max-width: 100%; /* Set a maximum width if necessary */
+    height: 35rem;
+  }
+  .termsli,.termspara{
+    font-size: 1.2rem;
+  }
+  li {
+    font-size: 1.2rem;
+  }
+  #Journey,.ourstorytitle{
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
+  #label {
+    width: 17rem;
+    font-size: 0.8rem;
+  }
+  .ourstorypara{
+    font-size: 1.2rem;
+  }
+  .circle1 {
+    width: 17rem;
+    height: 17rem;
+  }
+  .circle2 {
+    width: 24.9rem;
+    height: 24.9rem;
+  }
+  .valueCard {
+    width: 28.7rem;
+    height: 28rem;
+  }
+  .valueCard h5 {
+    font-size: 1.4rem;
+  }
+  .valueCard p {
+    font-size: 1.2rem;
+    width: 23.2rem;
+  }
+  #leftimageconor {
+    position: relative;
+    margin-left: 2vw;  
+    margin-right: 2vw;
+  }
+  .rect5 {
+    width: 25rem;
+  }
+  .ownbossCard {
+    width: 21.7rem;
+    height: 22.1rem;
+  }
+  .ownbossCard p {
+    font-size: 1.5rem;
+  }
+  .ownbossCard span {
+    font-size: 1rem !important;
+  }
+  .dropdown {
+    width: 12vw;
+  }
+  .becomestart {
+    font-size: 1rem;
+    padding: 1.2rem 1.7rem;
+}
+.frequentmargin {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.rect21 {
+  width: 100%;
+  height: auto;
+}
+.rect11 {
+  width: 40%;
+  height: 25.4rem;
+}
+.conmt{
+  margin-top: 28rem;
+}
+.lefttitle {
+  font-size: 2.8rem;
+}
+#commtabbtnd {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+.categoerytbn,.categoerytbn:hover{
+  font-size: 1.8rem;
+}
+.img1 img {
+  width: 24.2rem;
+  height: 20rem;}
+  .profileimage {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    margin-top: 1rem;
+}
+.name{
+  font-size: 0.6rem;
+  line-height: 1.6462rem;
+  margin-top: 0.8rem;
+}
+.homeInspiration {
+  font-size: 0.6rem;
+  line-height: 1.6462rem;
+  margin-top: 1.4rem;
+}
+.profilecardtitle {
+  font-size: 1.9rem;
+}
+.contacttitlemarginleft,.contacttitlemarginleftpara{
+  margin-left: 8.2vw;
+  margin-right:8.2vw;
+ }
+ .uploadmarginleftnj {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .openingcard {
+    width: 28.2rem;
+    height: 28.3rem;
+  }
+  .openingcard h2 {
+    font-size: 3.6rem;
+  }
+  .openingcard span {
+    font-size: 2.2rem;
+  }
+  .openingcard p {
+    font-size: 1.6rem;
+  }
+  label {
+    width: 27.2rem;
+}
+  .hiringstepCard {
+    width: 14.0206rem;
+    height: 14.0206rem;
+  }
+  .hiringstepCard p {
+    font-size: 1rem;
+    width: 10rem;
+  }
+  .hiringstepCard img{
+    width:3rem;
+    height: 3rem;
+  }
+}
+@media (max-width:920px) and (min-width:769px){
+  label{
+    width: 80%;
+  }
+  .termsli,.termspara{
+    font-size: 1.2rem;
+  }
+  li {
+    font-size: 1.2rem;
+  }
+  #Journey,.ourstorytitle{
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+  .ourstorypara{
+    font-size: 1.2rem;
+  }
+  .circle1 {
+    width: 15rem;
+    height: 15rem;
+  }
+  .circle2 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .valueCard {
+    width: 31.7rem;
+    height: 32.9rem;
+  }
+  .valueCard h5 {
+    font-size: 1.6rem;
+  }
+  .valueCard p {
+    font-size: 1.2rem;
+    width: 23.2rem;
+  }
+  .valueContainer,.ownbossgrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.ownbossCard {
+  width: 36.4rem;
+  height: 36.4rem;
+}
+.ownbossCard p {
+  font-size: 2.2rem;
+}
+.ownbossCard span {
+  font-size: 1.6rem !important;
+}
+.circlebecome2 {
+  width: 16rem;
+  height: 16rem;
+}
+.circlebecome1 {
+  width: 9rem;
+  height: 9rem;
+  margin: 3rem 2.5rem;
+}
+.circlebecome3 {
+  width: 9rem;
+  height: 9rem;
+  margin: -6rem -11rem;
+}
+.frequentmargin {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.rect21 {
+  width: 40.4rem;
+  height: 26.9rem;
+}
+.rect11 {
+  width: 15rem;
+  height: 30rem;
+}
+.conmt{
+  margin-top: 30rem;
+}
+.categoerytbn,.categoerytbn:hover{
+  font-size: 1.8rem;
+}
+.img1 img {
+  width: 100%;
+  height: auto;
+}
+  .profileimage {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    margin-top: 1rem;
+}
+.name{
+  font-size: 1rem;
+  line-height: 1.6462rem;
+  margin-top: 0.8rem;
+}
+.homeInspiration {
+  font-size: 1rem;
+  line-height: 1.6462rem;
+  margin-top: 1.4rem;
+}
+.profilecardtitle {
+  font-size: 1.6rem;
+}
+.contacttitlemarginleft,.contacttitlemarginleftpara{
+  margin-left: 8.2vw;
+  margin-right:8.2vw;
+ }
+ .uploadmarginleftnj {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto;
+  gap: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+  #label{
+    width: 100%;
+    font-size: 1.9rem;
+  }
+  .ab17{
+    margin-top: 53rem;
+  }
+}
+@media (max-width:858px) and (min-width:768px){
+  .jjjj{
+    margin-top: 52rem;
+  }
+  .mgjjf{
+    margin-top: 45rem;
+  }
+  .ab17 {
+    margin-top: 52rem;
+}
+  #leftimageconor {
+    position: relative;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+.rect2{
+max-width:100%;
+}
+.rect4{
+  max-width:100%;
+  right:-10rem;
+}
+.rect3 {
+  width: 9.1rem;
+  height: 9.1rem;
+  background-color: #1171CA;
+  border-radius: 1.2rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 14.5rem;
+  padding-top: 0%;
+}
+.mx-41{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.name{
+  font-size: 0.8rem;
+}
+.subcribetitle{
+  text-align: center;
+  font-size: 3rem;
+}
+.main-text p {
+  font-size: 1.5rem;
+}
+}
+@media (max-width:700px) and (min-width:481px){
+  .valueContainer{
+    display: grid;
+    grid-template-columns: auto auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    justify-content: center;
+}
+.mgjjf{
+  margin-top: 30rem;
+}
+.uploadmarginleftnj {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto;
+  gap: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+#label{
+  width: 100%;
+  font-size: 1.9rem;
+  padding: 1rem 6rem;
+}
+  .name, .homeInspiration {
+    font-size: 0.9rem;
+}
+}
+  /*tablet*/
+@media (max-width:768px) and (min-width:481px){
+  .roundring{
+    color:#1171ca;
+    border:0.1rem solid gold;
+    border-radius:50%;
+    width:10rem;
+    height:10rem;
+    margin:1.4rem auto
+  }
+  .blogGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    gap:0.5rem;
+    justify-content: center;
+   }
+  #label {
+    margin-top: 6px;
+    width: 100%;
+    padding: 1.1rem;
+  }
+  .contacttitlemarginleft,.contacttitlemarginleftpara{
+    margin-left: 4.5vw;
+    margin-right: 4.5vw;
+   }
+   .mt-700{
+    margin-top: 7rem !important;
+   }
+   .uploadmarginleftnj {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    gap: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #Journey,.ourstorytitle{
+    font-size: 5rem;
+  }
+  .mobiletabelimge,.mobileimagewidth{
+     width: 100%;
+  }
+  .valueContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    justify-content: center;
+}
+.ownbossgrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  justify-content: center;
+}
+.mx-41 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.valueCard {
+  width: 28.7rem;
+  height: 28rem;
+}
+.valueCard h5 {
+  font-size: 1.4rem;
+}
+.valueCard p {
+  font-size: 1.2rem;
+  width: 23.2rem;
+}
+.ourstorypara {
+  text-align: left;
+}
+.ab17{
+ margin-top: 38rem;
+}
+.dropdown,.becomestart{
+  width: 35vw;
+}
+.frequentmargin {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.mgjjf{
+ margin-top: 30rem;
+}
+.openingcard {
+  width: 30.3rem;
+  height: 28.1rem;
+}
+.openingcard h2 {
+  font-size: 3.2rem;
+}
+#cocimage {
+  margin-left: 13rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.openingcard p {
+  font-size: 2rem;
+}
+.lookingfor {
+font-size: 2.4rem;
+}
+li{
+  font-size: 14px;
+}
+label{
+  width: 80%;
+}
+}
+@media (max-width:598px) and (min-width:481px){
+  .card1 .img1 img{
+   width: 100%;
+   height: 17rem !important;
+  } 
+  .name{
+    font-size: 0.6rem;
+  }
+  .uploadmarginleftnj {
+    gap:1rem;
+  }
+}
+  @media (max-width:480px) and (min-width:377px){
+    .blogGrid{
+      display: grid;
+      grid-template-columns: auto;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+      gap:1.2rem;
+     }
+    .contacttitlemarginleft,.contacttitlemarginleftpara{
+      margin-left: 10.5vw;
+      margin-right: 10.5vw;
+     }
+     li {
+      font-size: 1.2rem;
+    }
+    .mgjjf{
+      margin-top: 10rem;
+     }
+    .ab17{
+     margin-top: 22rem;
+    }
+    .mobiletabelimge{
+      width: 100%;
+   }
+    #pressleftcvmf{
+      margin-top: 5rem;
+    }
+    #commtabbtnd{
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+    }
+    #label {
+      margin-left: auto;
+      margin-right: auto;
+      width: 32.4rem;
+      color: #fff;
+      height: 5rem;
+  }
+    .howmobileitworkmargintop {
+      margin-top: 9rem;
+  }
+    .ourstorytitle,.lefttitle {
+      color: #000;
+font-family: 'Poppins';
+font-size: 2.9rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.8rem; /* 105.556% */
+text-transform: capitalize;
+text-align: left;
+  }
+  #Journey{
+    color: #1171CA;
+font-family: 'Poppins';
+font-size: 2.9rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.8rem;
+text-transform: capitalize;
+text-align: left;
+  }
+  .mx-41 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.ourstorypara{
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #858585;
+  text-align: justify;
+}
+.paracardleft{
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #858585;
+}
+.valueContainer,.ownbossgrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 1.2rem;
+  justify-content: center;
+}
+.valueCard {
+  background-image: url(/assets/Rectangle488@2x.svg);
+  background-size: cover;
+  border-radius: 1rem;
+  width: 20.1005rem;
+  height: 20.703rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.1s;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+}
+.valueCard  p{
+  padding: 1rem 1rem;
+  font-size: 6px;
+  width: 141.14px;
+  height: 45.58px;
+}
+.valueCard h5{
+  font-size: 8px;
+  font-weight: 700;
+  padding: 0px 0.5rem;
+}
+.valueCard img{
+  width: 4rem;
+  height: 4rem;
+}
+.yellowbgcircle {
+  width: 2rem;
+  height: 2rem;
+}
+.valueiconimage {
+  padding: 0.5rem !important;
+  margin-left: 0px !important;
+}
+.ownbossCard,.openingcard{
+  width: 16.1005rem;
+  height: 15.703rem;
+  background-image: url(/assets/Rectangle488@2x.svg);
+ }
+ .openingcard h2{
+  line-height: 1.8rem !important;
+  font-size: 1.6rem !important;
+ }
+ .openingcard span {
+  font-size: 2.4rem;
+}
+.openingcard p {
+  font-size: 0.7rem;
+  padding-top: 0.3rem;
+}
+.roundring{
+  color:#1171ca;
+  border:0.1rem solid gold;
+  border-radius:50%;
+  width:10rem;
+  height:10rem;
+  margin:1.4rem auto
+}
+#cocimage {
+  margin-left: 6rem;
+  width: 1rem;
+  height: 1rem;
+}
+ .ownbossCard p {
+   font-size: 1rem;
+   padding-top: 1rem;
+ }
+ .ownbossCard span {
+   font-size: 0.7rem !important;
+  }
+  .becomeyellowcirclemargin {
+    margin: 0.2rem 0rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.valuesourparaafter,.blogdetailtiitl{
+  font-size: 1.2rem;
+}
+.termspara{
+  font-size: 1.2rem;
+  margin: 2rem 0rem;
+}
+.dropdown{
+  font-size: 1.4rem;
+  width: 50vw;
+  background-color: #fff;
+}
+.becomestart {
+  font-size: 1.4rem;
+  width: 50vw;
+}
+.mobileimagewidth {
+  border-radius: 10.5rem;
+  width: 100%;
+}
+.frequentmargin {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.answertitle{
+  text-align: left;
+  font-size: 1.2rem !important;
+}
+.faqpara {
+  font-size: 1.2rem;
+}
+label{
+  width: 80%;
+}
+.uploadmarginleftnj {
+  gap:1rem;
+}
+}
+  @media screen and (max-width:377px) and (min-width:320px){
+    .blogGrid{
+      display: grid;
+      grid-template-columns: auto;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+      gap:0.5rem;
+     }
+    .contacttitlemarginleft,.contacttitlemarginleftpara{
+      margin-left: 6.5vw;
+      margin-right: 6.5vw;
+     }
+     li {
+      font-size: 1.2rem;
+    }
+    .mgjjf{
+      margin-top: -4rem;
+     }
+    #pressleftcvmf{
+      margin-top: 4rem;
+    }
+    .ab17{
+      margin-top: 19rem;
+     }
+    #commtabbtnd{
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+    }
+    .termspara{
+      font-size: 1.2rem;
+      margin: 2rem 0rem;
+    }
+    label{
+      padding: 1.2rem 5.2rem;
+    }
+    .faqpara {
+       font-size: 1.2rem;
+    }
+    .answertitle{
+      font-size: 1.2rem !important;
+    }
+    .plus{
+       margin-top: 1.2rem;
+    }
+    .mx-41 {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+  }
+  .paracardleft {
+    color: #858585;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+    .ourstorytitle{
+      color: #000;
+font-family: 'Poppins';
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.8rem; /* 105.556% */
+text-transform: capitalize;
+text-align: left;
+  }
+  .lefttitle{
+    color: #000;
+font-family: 'Poppins';
+font-size: 2.5rem !important;
+font-style: normal;
+font-weight: 700;
+line-height: 3.8rem; /* 105.556% */
+text-transform: capitalize;
+text-align: left;
+}
+  #Journey{
+    color: #1171CA;
+font-family: 'Poppins';
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.8rem;
+text-transform: capitalize;
+text-align: left;
+  }
+  .answertitlemargin{
+    margin:0.5rem 0.7rem !important;
+    color:#1171ca !important;
+    text-align: left;
+  }
+  .frequentmargin{
+    margin-left: 2rem;
+    margin-right:2rem;
+  }
+  .yellowbgcirclemobile{
+    width: 3.1rem !important;
+    height: 3.1rem !important;
+  }
+  .yellowbgcircle {
+    width: 2rem;
+    height: 2rem;
+  }
+  .valueiconimage {
+    padding: 0.5rem !important;
+    margin-left: 0rem !important;
+  }
+  .roundring{
+    color:#1171ca;
+    border:0.1rem solid gold;
+    border-radius:50%;
+    width:10rem;
+    height:10rem;
+    margin:1.4rem auto
+  }
+  .becomeyellowcirclemargin{
+    margin: 0.5rem 0rem;
+    width: 2rem;
+    height: 2rem;
+  }
+  .valuesourparaafter {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    font-size: 1rem;
+    color: rgb(123 127 131);
+}
+.answertitle {
+  color: #1171ca !important;
+  font-size: revert;
+  margin: 1.6rem 0rem;
+}
+  .termspara{
+    font-size: 1.2rem;
+    color: rgb(123, 127, 131);
+    margin: 2rem 0rem;
+ }  
+  .mobileimagewidth{
+   width:100%;
+   height: auto;
+   border-radius: 10.5rem;
+  } 
+  .mobileimagewidth img{
+    border-radius: 10.5rem !important;
+  }
+  .ourstorypara{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #858585;
+    text-align: justify;
+  }
+  .hirebtn{
+    margin-top: 1.5rem;
+  }
+  .valueContainer,.ownbossgrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 1.2rem;
+    justify-content: center;
+}
+.valueCard {
+  background-image: url(/assets/Rectangle488@2x.svg);
+  background-size: cover;
+  border-radius: 1rem;
+  width: 20.5rem;
+  height: 20.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.1s;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+}
+.valueCard  p{
+  padding: 1rem 1rem;
+  font-size: 5.05rem;
+}
+.valueCard h5{
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0rem 0.5rem;
+}
+.valueCard img{
+  width: 4rem;
+  height: 4rem;
+}
+.valueCard  p{
+  padding: 1rem 1rem;
+  font-size: 0.6rem;
+  width: 14.114rem;
+  height: 4.558rem;
+}
+.openingcard{
+  border-radius: 1rem;
+  width: 13.5rem;
+  height:13.5rem;
+}
+.openingcard p {
+  font-size: 0.7rem;
+  padding-top: 0.3rem;
+}
+.openingcard h2{
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+}
+label{
+  width: 88%;
+}
+#cocimage{
+  margin-left: 6rem;
+  width: 1rem;
+  height: 1rem;
+}
+.dropdown,.becomestart{
+  font-size: 1.4rem;
+  width: 50vw;
+}
+
+.ownbossCard{
+  width: 16.1005rem;
+  height: 15.703rem;
+ background-image: url(/assets/Rectangle488@2x.svg);
+}
+.ownbossCard p {
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+.ownbossCard span {
+  font-size: 0.7rem !important;
+  padding: 0.5rem !important;
+}
+#inforicon{
+ margin-top: -1rem;
+}
+.contactforminput,.textarea{
+  border-radius: 0.5rem;
+  width: 88%;
+  background-color: #ffffff;
+  padding: 1.2rem;
+}
+.chatusCard{
+  width: 28rem;
+  height: 28.5rem;
+}
+#label{
+  margin-left: auto;
+  margin-right: auto;
+  color: #FFF;
+font-family: 'Poppins';
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.4rem;
+width: 28rem;
+}
+.hirebtn{
+ margin-top: 3.3rem;
+}
+.uploadmarginleftnj {
+  gap:1rem;
+}
+
+  }
+  @media (max-width:768px) and (min-width:481rem) {
+    #leftimageconor{
+         margin-left: 2rem;
+         margin-right: 4rem;
+         text-align: center;
+    }
+    #leftimageconor1{
+      margin-left: 4rem;
+      margin-right: 2rem;
+      text-align: center;
+ }
+  }
+
+  @media (max-width:480px) and (min-width:370px) {
+    #leftimageconor{
+         margin-left: 2rem;
+         margin-right: 4rem;
+         text-align: center;
+    }
+    #leftimageconor1{
+      margin-left: 4rem;
+      margin-right: 2rem;
+      text-align: center;
+ }
+ .blogGrid{
+  display: grid;
+  grid-template-columns: auto;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  gap:0.5rem;
+ }
+ .mgjjf{
+  margin-top: 45rem;
+ }
+  }
+  @media (max-width:365px) and (min-width:320px) {
+    #leftimageconor{
+         margin-left: 1rem;
+         margin-right: 2.5rem;
+    }
+    #leftimageconor1{
+      margin-left: 2.5rem;
+      margin-right: 1rem;
+      text-align: center;
+ }
+ #label{
+width: 26rem;
+}
+.mgjjf{
+  margin-top: 34rem;
+ }
+  }
+  @media screen and (max-width:34.9rem) and (min-width:32rem){
+    .dropdown{
+      width: 100%;
+      font-size: 0.8rem;
+    }
+
+    .becomestart{
+       font-size: 0.8rem;
+       width: 100%;
+    }
+  }
+  @media (max-width:319px) and (min-width:200px) {
+    .valueContainer,.ownbossgrid {
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: center;
+      gap: 1.2rem;
+      justify-content: center;
+  }
+    .ownbossCard {
+      width: 16.1005rem;
+      height: 15.703rem;
+      background-image: url(/assets/Rectangle488@2x.svg);
+  }
+  .ownbossCard p {
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+  .ownbossCard span {
+    font-size: 0.7rem !important;
+    padding: 0.5rem !important;
+  }
+  .answertitle {
+    color: #1171ca !important;
+    font-size: revert;
+    margin: 1.6rem 0rem;
+  }
+    .termspara{
+      font-size: 1.2rem;
+      color: rgb(123, 127, 131);
+      margin: 2rem 0rem;
+   }  
+   .chatusCard{
+    width: 28rem;
+    height: 28.5rem;
+  }
+  .rect2{
+    max-width: 31rem !important;
+  }
+  .contactforminput,.textarea{
+    border-radius: 0.5rem;
+    width: 88%;
+    background-color: #ffffff;
+    padding: 1.2rem;
+  }
+  .ourstorypara{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #858585;
+    text-align: justify;
+  }
+  .blogGrid{
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    gap:0.5rem;
+   }
+  .contacttitlemarginleft,.contacttitlemarginleftpara{
+    margin-left: 6.5vw;
+    margin-right: 6.5vw;
+   }
+   li {
+    font-size: 1.2rem;
+  }
+  .mgjjf{
+    margin-top: -4rem;
+   }
+  #pressleftcvmf{
+    margin-top: 4rem;
+  }
+  .ab17{
+    margin-top: 19rem;
+   }
+  #commtabbtnd{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  .termspara{
+    font-size: 1.2rem;
+    margin: 2rem 0rem;
+  }
+  label{
+    padding: 1.2rem 5.2rem;
+  }
+  .faqpara {
+     font-size: 1.2rem;
+  }
+  .answertitle{
+    font-size: 1.2rem !important;
+  }
+  .plus{
+     margin-top: 1.2rem;
+  }
+  .mx-41 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.paracardleft {
+  color: #858585;
+  font-family: 'Poppins';
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+  .ourstorytitle{
+    color: #000;
+font-family: 'Poppins';
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.8rem; /* 105.556% */
+text-transform: capitalize;
+text-align: left;
+}
+.lefttitle{
+  color: #1171CA;
+font-family: 'Poppins';
+font-size: 2.5rem !important;
+font-style: normal;
+font-weight: 700;
+line-height: 3.8rem; /* 105.556% */
+text-transform: capitalize;
+text-align: left;
+}
+#Journey{
+  color: #1171CA;
+font-family: 'Poppins';
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.8rem;
+text-transform: capitalize;
+text-align: left;
+}
+.answertitlemargin{
+  margin:0.5rem 0.7rem !important;
+  color:#1171ca !important;
+  text-align: left;
+}
+.frequentmargin{
+  margin-left: 2rem;
+  margin-right:2rem;
+}
+.yellowbgcirclemobile{
+  width: 3.1rem !important;
+  height: 3.1rem !important;
+}
+.yellowbgcircle {
+  width: 2rem;
+  height: 2rem;
+}
+.valueiconimage {
+  padding: 0.5rem !important;
+  margin-left: 0rem !important;
+}
+.roundring{
+  color:#1171ca;
+  border:0.1rem solid gold;
+  border-radius:50%;
+  width:10rem;
+  height:10rem;
+  margin:1.4rem auto
+}
+.becomeyellowcirclemargin{
+  margin: 0.5rem 0rem;
+  width: 2rem;
+  height: 2rem;
+}
+.valuesourparaafter {
+  margin-left: 0rem;
+  margin-right: 0rem;
+  font-size: 1rem;
+  color: rgb(123 127 131);
+}
+.answertitle {
+color: #1171ca !important;
+font-size: revert;
+margin: 1.6rem 0rem;
+}
+.termspara{
+  font-size: 1.2rem;
+  color: rgb(123, 127, 131);
+  margin: 2rem 0rem;
+}  
+.mobileimagewidth{
+ width:86%;
+ height: auto;
+ border-radius: 10.5rem;
+} 
+.mobileimagewidth img{
+  border-radius: 10.5rem !important;
+}
+.ourstorypara{
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #858585;
+  text-align: justify;
+}
+.hirebtn{
+  margin-top: 1.5rem;
+}
+.valueContainer,.ownbossgrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 1.2rem;
+  justify-content: center;
+}
+.valueCard {
+background-image: url(/assets/Rectangle488@2x.svg);
+background-size: cover;
+border-radius: 1rem;
+width: 16.5rem;
+height: 16.5rem;
+align-items: center;
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+cursor: pointer;
+transition: all 0.1s;
+margin-bottom: 4rem;
+margin-top: 1rem;
+}
+.valueCard  p{
+padding: 1rem 1rem;
+font-size: 5.05rem;
+}
+.valueCard h5{
+font-size: 0.8rem;
+font-weight: 700;
+padding: 0rem 0.5rem;
+}
+.valueCard img{
+width: 4rem;
+height: 4rem;
+}
+.valueCard  p{
+padding: 1rem 1rem;
+font-size: 0.6rem;
+width: 14.114rem;
+height: 4.558rem;
+}
+.openingcard{
+border-radius: 1rem;
+width: 13.5rem;
+height:13.5rem;
+}
+.openingcard p {
+font-size: 0.7rem;
+padding-top: 0.3rem;
+}
+.openingcard h2{
+font-weight: 700;
+font-size: 1.6rem;
+line-height: 1.8rem;
+}
+label{
+width: 88%;
+}
+#cocimage{
+margin-left: 6rem;
+width: 1rem;
+height: 1rem;
+}
+#inforicon{
+margin-top: -1rem;
+}
+
+#label{
+margin-left: auto;
+margin-right: auto;
+color: #FFF;
+font-family: 'Poppins';
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.4rem;
+width: 30rem;
+}
+.ab17{
+  margin-top: 32rem;
+}
+.rect3{
+  right: 1rem;
+}
+#label{
+  margin-left: auto;
+  margin-right: auto;
+  color: #FFF;
+font-family: 'Poppins';
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.4rem;
+width: 100%;
+}
+.hirebtn{
+ margin-top: 3.3rem;
+}
+.uploadmarginleftnj {
+  gap:1rem;
+}
+.mgjjf{
+  margin-top: 25rem;
+ }
+  }
